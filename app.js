@@ -21,7 +21,7 @@ const divButtonEl = document.getElementById('div-button');
 const divResultEl = document.getElementById('div-result');
 
 //click counters
-const countAddEl = document.getElementById('addButton');
+// const countAddEl = document.getElementById('addButton');
 
 
 console.log(addInputEl1, addInputEl2, addResultEl, addButtonEl);
