@@ -20,6 +20,9 @@ const divInputEl2 = document.getElementById('div-input-2');
 const divButtonEl = document.getElementById('div-button');
 const divResultEl = document.getElementById('div-result');
 
+//click counters
+const countAddEl = document.getElementById('addButton');
+
 
 console.log(addInputEl1, addInputEl2, addResultEl, addButtonEl);
 
@@ -50,3 +53,8 @@ divButtonEl.addEventListener('click', () => {
     const result = divide(x, y);
     divResultEl.textContent = result;
 });
+//attempt to add count button stretch goal
+// countAddEl.addEventListener('click', () => {
+//     count++;
+//     addButtonEl.innerHTML = count;
+// }) 
